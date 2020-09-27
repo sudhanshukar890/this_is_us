@@ -1,0 +1,61 @@
+body {
+	background-image: url(love.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	text-align : center;
+	height: 1500px;
+
+}
+div {
+	background-color: #f2f2f2;
+	width: 1000px;
+	transform: translate(190px,75px);
+	border-radius: 40px;
+	padding: 20px;
+	font-family: "Century Gothic";
+	margin-bottom: 100px;
+	box-shadow: 0 0 100px black;
+
+}
+
+div main ul {
+  text-align:left;
+  line-height: 170%;
+}
+div header {
+	font-family: serif, Arial, Algerian;
+	font-size: 325%;
+	margin: 30px;
+	color: #cc9900;
+	font-variant: small-caps;
+}
+div #ja,#ju {
+	width: 300px;
+	height: 300px;
+	float: right;
+	clear: right;
+	
+	margin: 10px;
+	border-radius: 30px;
+}
+div #ji {
+	width: 600px;
+	height: 300px;
+	border-radius: 30px;
+	
+	margin: 10px ;
+	margin-bottom: 5px;
+
+}
+#ji:hover {
+	box-shadow: 0 0 100px #cc9900;
+}
+#ja:hover,#ju:hover {
+  	box-shadow: 0 0 100px #cc9900;
+}
+div main {
+	font-size: 140%;
+}
+div footer {
+	font-size: 140%;
+}
